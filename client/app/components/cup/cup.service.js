@@ -1,7 +1,8 @@
-class CupService {
-    constructor($http, $q,  $rootScope) {
+import BaseService from '../../services/base.service';
+class CupService extends BaseService {
+  constructor($http, $q,  $rootScope) {
+        super();
         this.$http = $http;
-        //this.baseApi = baseApi;
         this.$q = $q;
         this.$rootScope = $rootScope;
     }

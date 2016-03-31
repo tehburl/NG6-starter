@@ -11,8 +11,8 @@ let forkModule = angular.module('fork', [
           .state('fork', {
             url: '/fork',
             template: '<fork></fork>'
-          });
-    })
+});
+})
 .component('fork', forkComponent);
 
 export default forkModule;
